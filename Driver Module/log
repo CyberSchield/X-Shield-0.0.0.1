@@ -1,0 +1,3450 @@
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:39  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:39  IST     0      1972      0.64      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:39  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:39  IST     0      1973      0.08      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:39  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:39  IST     0      1986      0.16      0.03      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:39  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:39  IST     0      2695      0.00      0.00      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:45  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:45  IST     0      1972      0.64      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:45  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:45  IST     0      1973      0.08      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:45  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:45  IST     0      1986      0.16      0.03      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:45  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:45  IST     0      2695      0.00      0.01      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:50  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:50  IST     0      1972      0.64      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:51  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:51  IST     0      1973      0.08      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:51  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:51  IST     0      1986      0.16      0.03      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:51  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:51  IST     0      2695      0.00      0.02      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:56  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:56  IST     0      1972      0.63      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:56  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:56  IST     0      1973      0.08      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:56  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:56  IST     0      1986      0.16      0.03      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:50:56  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:50:56  IST     0      2695      0.00      0.02      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:01  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:01  IST     0      1972      0.63      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:02  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:02  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:02  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:02  IST     0      1986      0.16      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:02  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:02  IST     0      2695      0.00      0.02      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:07  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:07  IST     0      1972      0.63      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:07  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:07  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:07  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:07  IST     0      1986      0.16      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:07  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:07  IST     0      2695      0.00      0.03      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:13  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:13  IST     0      1972      0.62      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:13  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:13  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:13  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:13  IST     0      1986      0.16      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:13  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:13  IST     0      2695      0.00      0.04      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:18  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:18  IST     0      1972      0.62      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:19  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:19  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:19  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:19  IST     0      1986      0.16      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:19  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:19  IST     0      2695      0.00      0.05      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:24  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:24  IST     0      1972      0.62      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:24  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:24  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:24  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:24  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:24  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:24  IST     0      2695      0.00      0.05      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:30  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:30  IST     0      1972      0.61      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:30  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:30  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:30  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:30  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:30  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:30  IST     0      2695      0.00      0.05      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:35  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:35  IST     0      1972      0.61      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:35  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:35  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:35  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:35  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:36  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:36  IST     0      2695      0.00      0.06      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:41  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:41  IST     0      1972      0.61      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:41  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:41  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:41  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:41  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:41  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:41  IST     0      2695      0.00      0.06      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:46  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:46  IST     0      1972      0.60      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:47  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:47  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:47  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:47  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:47  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:47  IST     0      2695      0.00      0.07      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:52  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:52  IST     0      1972      0.60      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:52  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:52  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:52  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:52  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:52  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:52  IST     0      2695      0.00      0.08      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:58  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:58  IST     0      1972      0.60      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:58  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:58  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:58  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:58  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:51:58  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:51:58  IST     0      2695      0.00      0.08      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:03  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:03  IST     0      1972      0.59      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:03  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:03  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:03  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:03  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:03  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:03  IST     0      2695      0.00      0.08      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:09  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:09  IST     0      1972      0.59      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:09  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:09  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:09  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:09  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:09  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:09  IST     0      2695      0.00      0.09      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:14  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:14  IST     0      1972      0.59      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:14  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:14  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:14  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:14  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:15  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:15  IST     0      2695      0.00      0.10      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:20  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:20  IST     0      1972      0.58      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:20  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:20  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:20  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:20  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:20  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:20  IST     0      2695      0.00      0.10      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:25  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:25  IST     0      1972      0.58      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:26  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:26  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:26  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:26  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:26  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:26  IST     0      2695      0.00      0.10      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:31  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:31  IST     0      1972      0.58      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:31  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:31  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:31  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:31  IST     0      1986      0.15      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:31  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:31  IST     0      2695      0.00      0.11      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:37  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:37  IST     0      1972      0.57      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:37  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:37  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:37  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:37  IST     0      1986      0.14      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:37  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:37  IST     0      2695      0.00      0.11      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:42  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:42  IST     0      1972      0.57      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:42  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:42  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:42  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:42  IST     0      1986      0.14      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:43  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:43  IST     0      2695      0.00      0.12      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:48  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:48  IST     0      1972      0.57      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:48  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:48  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:48  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:48  IST     0      1986      0.14      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:48  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:48  IST     0      2695      0.00      0.12      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
+command details = COMMAND
+sudo su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 00000001800b7a07 0000000000000000 0000000000000000
+***********************************
+User details =   PID  EUID EUSER
+ 1972     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 72820  4368
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:53  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:53  IST     0      1972      0.57      0.00      0.00       1  sudo su - root 
+***********************************
+***********************************
+command details = COMMAND
+su - root
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000180004000 0000000000000000 fffffffe7ffb9eff
+***********************************
+User details =   PID  EUID EUSER
+ 1973     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 72212  3804
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:53  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:53  IST     0      1973      0.07      0.00      0.00       0  su - root 
+***********************************
+***********************************
+command details = COMMAND
+-su
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.0 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 000000004b817efb 0000000000380004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 1986     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.1 28831  5308
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:54  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:54  IST     0      1986      0.14      0.02      0.01       0  -su 
+***********************************
+***********************************
+command details = COMMAND
+/bin/bash ./main_script.sh
+***********************************
+CPU USAGE = %CPU     TIME
+ 0.1 00:00:00
+***********************************
+List of process acessing port = 
+***********************************
+priority = PRI
+ 19
+***********************************
+Process Status =P PSR          PENDING           CAUGHT          IGNORED          BLOCKED
+*   0 0000000000000000 0000000000010002 0000000000000004 0000000000010000
+***********************************
+User details =   PID  EUID EUSER
+ 2695     0 root
+***********************************
+Memory Usage = %MEM   DRS   RSS
+ 0.0 18955  3136
+***********************************
+I/O status = Linux 4.15.0-20-generic (whitehack-VirtualBox) 	Tuesday 31 July 2018 	_x86_64_	(1 CPU)
+
+09:52:54  IST   UID       PID   kB_rd/s   kB_wr/s kB_ccwr/s iodelay  Command
+09:52:54  IST     0      2695      0.00      0.13      0.00       0  /bin/bash ./main_script.sh 
+***********************************
+***********************************
+command details = 
+***********************************
+CPU USAGE = 
+***********************************
+List of process acessing port = 
+***********************************
+priority = 
+***********************************
+Process Status =
+***********************************
+User details = 
+***********************************
+Memory Usage = 
+***********************************
+I/O status = 
+***********************************
+***********************************
