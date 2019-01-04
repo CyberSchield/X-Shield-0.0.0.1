@@ -17,7 +17,7 @@ import sklearn as skl
 # Configuration of neural Network Architecture
 X = Input_Data # Source Data
 Y = Labels_of_Input_Data # Source known result
-Layers_Dimensions = [X.shape[0],3,4,X.shape[1]]  #First value is input and last is output and the middle values are hidden layers
+Layers_Dimensions = [X.shape[1],3,4,Y.shape[1]]  #First value is input and last is output and the middle values are hidden layers
 Layer_Order = ['S','R','R','R','L']
 # -------------------------------------------------
 
@@ -60,9 +60,12 @@ def Relu(z):
     r = z * (z > 0)
     return (r,z)
 
-def dRelu(z):
+def dRelu(z,activation_cache):
     dr = 1. * (z > 0)
-    return (dr)
+    return activation_cache*dr,z
+
+def dsigmoid(z,activation_cache):
+    return activation_cache*(sigmoid(z)[0]*(1 - sigmoid(z)[0]))
 
 def max_func(z):
     return np.floor(z/max(z))
@@ -108,6 +111,56 @@ def Main_Forward_propagation_Function(X,parameters):
     # Checking the dimension of result matrix
     assert (AL.shape == (1, X.shape[1]))
     return AL, caches
+
+###-------------Defining the Cost Function-------------###
+
+def compute_cost(AL,Y):  # Y is the input
+
+    m = Y.shape[1]
+
+    # Compute loss from aL and y.
+
+    cost = -1 / m * np.sum(Y * np.log(AL) + (1 - Y) * (np.log(1 - AL)))  # Cost Function
+    cost = np.squeeze(cost)
+    # Checking the cost shape
+    assert (cost.shape == ())
+
+    return cost
+
+# Backward Propagation Function
+
+def linear_backward(dZ, cache):
+
+    A_prev, W, b = cache
+    m = A_prev.shape[1]
+
+    dW = 1 / m * (np.dot(dZ, A_prev.T))
+    db = 1 / m * np.sum(dZ, axis=1, keepdims=True)
+    dA_prev = np.dot(W.T, dZ)
+
+## Checking the structure
+    assert (dA_prev.shape == A_prev.shape)
+    assert (dW.shape == W.shape)
+    assert (db.shape == b.shape)
+
+    return dA_prev, dW, db
+
+
+def linear_activation_backward(dA, cache, activation):
+
+    linear_cache, activation_cache = cache
+
+    if activation == 1:
+
+        dZ = dRelu(dA, activation_cache)
+        dA_prev, dW, db = linear_backward(dZ, linear_cache)
+
+    elif activation == 2:
+
+        dZ = dsigmoid(dA, activation_cache)
+        dA_prev, dW, db = linear_backward(dZ, linear_cache)
+
+    return dA_prev, dW, db
 
 
 
