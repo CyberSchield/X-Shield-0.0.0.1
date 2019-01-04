@@ -1,7 +1,9 @@
 """
-Master Clustering Module
-Clustering Technique under Implementation is DB -Scan
+NOTES :-
+Master Clustering Module Iteration - 1
+Clustering Technique under Implementation is [DB-Scan]
 Author:- Ankit Yadav [15SCSE101296]
+Cyber-Shield
 """
 
 import sys
