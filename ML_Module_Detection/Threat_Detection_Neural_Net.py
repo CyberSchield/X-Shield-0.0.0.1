@@ -12,34 +12,103 @@ Cyber-Shield
 import numpy as np
 import sklearn as skl
 
-## Neural Network Model ---------------------------------------
-
+# Neural Network Model ---------------------------------------
+# ---------------Neural Network Architecture---------------------
 # Configuration of neural Network Architecture
-
-def Neural_network_Architecture(input_size_x,Hidden_Layer_size,Hidden_Layer_No,output_layer_size_y):
-    x_size = input_size_x.shape[0]                                                    ## Pulling in the input data size values
-    y_size = output_layer_size_y.shape[1]                                             ## pulling the values for the label dimension
-    return (x_size,Hidden_Layer_size,Hidden_Layer_No,y_size)
-
+X = Input_Data # Source Data
+Y = Labels_of_Input_Data # Source known result
+Layers_Dimensions = [X.shape[0],3,4,X.shape[1]]  #First value is input and last is output and the middle values are hidden layers
+Layer_Order = ['S','R','R','R','L']
+# -------------------------------------------------
 
 # Initialising the input parameters
 
-def Initilize_params(x_size,Hidden_Layer_size,Hidden_layer_No,y_size):
-    Wx = np.random.randn(Hidden_Layer_size,x_size,Hidden_layer_No)*0.01 # Initialising the weight matrix for the data
-    Bx = np.zeros((Hidden_Layer_size,1,Hidden_layer_No)) # initialising the bias matrix for the data
+def Initilize_params(Layers_Dimensions):
 
-    Wy = np.random.randn(y_size,Hidden_Layer_size)*0.01 # initialising the weight matrix of label portion
-    By = np.zeros((y_size,1))
+    # Initialize the hidden layer matrix values
+    np.random.seed(3)  # to control the random values selection
+    parameters_Hidden_Layer = {}
+    L = len(Layers_Dimensions)
+    for i in range(1, L):
+        parameters_Hidden_Layer['Wx' + str(i)] = np.random.randn(Layers_Dimensions[i], Layers_Dimensions[i-1])*0.01
+        parameters_Hidden_Layer['Bx' + str(i)] = np.zeros((Layers_Dimensions[i], 1))
+
+        # analysing the dimensions and giving error of wrong dimension matrix
+        assert (parameters_Hidden_Layer['Wx' + str(i)].shape == (parameters_Hidden_Layer[i]),parameters_Hidden_Layer[i-1])
+        assert (parameters_Hidden_Layer['Bx' + str(i)].shape == (parameters_Hidden_Layer[i]),1)
 
     ## Checking the dimension of the matrix raises error for some anamalyous behaviour
-
-    assert (Wx.shape == (Hidden_Layer_size, x_size,Hidden_layer_No))
-    assert (Bx.shape == (Hidden_Layer_size, 1,Hidden_layer_No))
-    assert (Wy.shape == (y_size, Hidden_Layer_size))
-    assert (By.shape == (y_size, 1))
-
-    parameters = {"Wx": Wx, "bx": Bx, "Wy": Wy, "by": By}
+    parameters = parameters_Hidden_Layer
     return parameters
+# Forward Propagation Function
 
-c = Initilize_params(2,4,3,3)
-print(c)
+# A-> Activation from prev layer,W-> Weight from prev layer,
+# b-> bias from prev layer
+def Linear_forward_prop(A,W,b):
+    Z = np.dot(W,A) + b
+    # checking the dimensions values
+    assert (Z.shape == (W.shape[0],A.shape[1]))
+    cache = (A,W,b)    # stroting values for backward propagation
+    return Z,cache
+
+## Creating the Sigmoid Helper Function
+def sigmoid(z):
+    s = 1/(1+np.exp(-z))
+    return s,z
+## Creating Relu Helper Function
+def Relu(z):
+    r = z * (z > 0)
+    return (r,z)
+
+def dRelu(z):
+    dr = 1. * (z > 0)
+    return (dr)
+
+def max_func(z):
+    return np.floor(z/max(z))
+
+def Linear_Activation_forward(A_prev, W , b , activation): ## activation = 1[Sigmoid] , 2[Relu]
+
+    if activation == 1:
+        Z,linear_cache = Linear_forward_prop(A_prev, W , b)
+        A,activation_cache = sigmoid(Z)
+
+    elif activation == 2:
+        Z,linear_cache = Linear_forward_prop(A_prev,W,b)
+        A, activation_cache = Relu(Z)
+    elif activation == 0:
+        Z, linear_cache = Linear_forward_prop(A_prev, W, b)
+        A, activation_cache = max_func(Z)
+
+    # Checking the matrix dimensions
+        assert (A.shape == (W.shape[0], A_prev.shape[1]))
+        cache = (linear_cache, activation_cache)
+
+        return  A, cache
+# Main consolidated forward propagation function
+def Main_Forward_propagation_Function(X,parameters):
+    activation = 0
+    caches = []
+    A = X
+    L = len(parameters) // 2
+    for i in range(1,L):
+        if Layer_Order[i] == 'S':
+            activation = 1
+        elif Layer_Order[i] == 'R':
+            activation = 2
+        A_prev = A
+        A, cache = Linear_Activation_forward(A_prev, parameters['W' + str(i)], parameters['b' + str(i)], activation)
+        caches.append(cache)
+
+        # implementing the final result layer
+
+    AL, cache = Linear_Activation_forward(A, parameters['W'+str(L)], parameters['b'+str(L)],0)
+    caches.append(cache)
+
+    # Checking the dimension of result matrix
+    assert (AL.shape == (1, X.shape[1]))
+    return AL, caches
+
+
+
+
