@@ -24,5 +24,29 @@ class Threat:
         self.type_access = type_access
 
 
-class Threat_Level:
-    
+class Assign_Threat_Level(Threat):
+    assigned_level = 0
+
+    def assign_threat_level(self):
+        pass
+
+
+    def display(self):
+        if Assign_Threat_Level.assigned_level == 0:
+            print("False Positive")
+
+        elif Assign_Threat_Level.assigned_level == 1:
+            print("Level 1 threat detected")
+
+        elif Assign_Threat_Level.assigned_level == 2:
+            print("Level 2 threat detected")
+
+        elif Assign_Threat_Level.assigned_level == 3:
+            print("Level 3 threat detected")
+
+        elif Assign_Threat_Level.assigned_level == 4:
+            print("Level 4 threat detected")
+
+        elif Assign_Threat_Level.assigned_level == 5:
+            print("Level 5 threat detected")
+
