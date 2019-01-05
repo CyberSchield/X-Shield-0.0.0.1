@@ -10,6 +10,9 @@ Cyber-Shield
 # Importing Packages
 
 import numpy as np
+import json
+import codecs
+import time
 # import sklearn as skl
 import matplotlib.pyplot as plt
 
@@ -145,23 +148,10 @@ def linear_backward(dZ, cache):
 
     dW = 1 / m * (np.dot(dZ, A_prev.T))
     db = 1 / m * np.sum(dZ, axis=1, keepdims=True)
-    print('-----##-----')     #
-    print(W)                  #
-    print(dZ)                 #    REMOVE THESE STUFF DEBUG CODE
-    dA_prev = np.dot(W.T, dZ) #
-    print(dA_prev)            #
-    print('----##----')       #
+    dA_prev = np.dot(W.T, dZ)
+
 
 ## Checking the structure
-    print('-----###-------')  #
-    print(dZ)                 #
-    print(dA_prev.shape)      #
-    print(A_prev.shape)       #    REMOVE THESE STUFF DEBUG CODE
-    print(dW.shape)           #
-    print(W.shape)            #
-    print(db.shape)           #
-    print(b.shape)            #
-    print('----####-----')
     assert dA_prev.shape == A_prev.shape
     assert dW.shape == W.shape
     assert db.shape == b.shape
@@ -210,10 +200,6 @@ def L_model_backward(AL, Y, caches):
             activation = 1
         elif Layer_Order[l] == 'R':
             activation = 2
-        print('------')
-        print(current_cache)
-        print(caches)
-        print('--------')
         current_cache = caches[l]
         dA_prev_temp, dW_temp, db_temp = linear_activation_backward(grads["dA" + str(L - 1)], current_cache, activation)
         grads["dA" + str(l)] = dA_prev_temp
@@ -230,14 +216,9 @@ def update_parameters(parameters, grads, learning_rate):
 
     L = len(parameters) // 2  # number of layers in the neural network
 
-    print("-------------PARAMS------------")
-    print(parameters)
     for l in range(1, L):
         parameters["W" + str(l )] = parameters['W' + str(l)] - learning_rate * (grads['dW' + str(l)])
         parameters["b" + str(l )] = parameters['b' + str(l)] - learning_rate * (grads['db' + str(l)])
-    print("-------------UPDATED PARAMS-----------")
-    print(parameters)
-    print("------------------PARAMS----------------")
     return parameters
 
 
@@ -267,10 +248,26 @@ def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iteratio
         # Update parameters.
 
         parameters = update_parameters(parameters, grads, learning_rate)
+    ## Storing the Trained N N Model
 
-      ##------------Debuger Code-------------------------------------------
-        # Print the cost every 100 training example
-        print(cost)
+    #processing the dictionary and serializing it
+
+
+
+    try:
+       pass
+    except():
+        print("Logs Cannot be generated")
+    else:
+        print("Logs Generated successfully")
+
+
+
+
+    ##------------Debuger Code-------------------------------------------
+    print('=================================================') #
+    print(cost)                                                # Problem of division by zero and inf comming with real data check this part
+    print('=================================================') #
 
     # plot the cost
     plt.plot(np.squeeze(costs))
@@ -278,14 +275,15 @@ def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iteratio
     plt.xlabel('iterations (per tens)')
     plt.title("Learning rate =" + str(learning_rate))
     plt.show()
-
+    #---------------------Debug Code------------------------------#
     return parameters
 
 # Calling the training module
 
-Train_NN_Model(X, Y, Layers_Dimensions, 0.0075, 3000)
+Final_Params = Train_NN_Model(X, Y, Layers_Dimensions, 0.0075, 30)           ## Debugger function
+print(Final_Params)
 
 
 
 
-
+##-----------------------------------------------
