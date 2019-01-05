@@ -10,18 +10,23 @@ Cyber-Shield
 # Importing Packages
 
 import numpy as np
-import sklearn as skl
+# import sklearn as skl
 import matplotlib.pyplot as plt
 
-Input_Data = [2.5,4.5,3.0,1.0,5.3,2.3,5.1,4.0,7.0,5.4,2.3]
-Labels_of_Input_Data = [1,2,2,3,3,2,5,5,3,5,4]
+Input_Data = np.asarray([[2.5,4.5,3.0,1.0,5.3,2.3,5.1,4.0,7.0,5.4,2.3]])
+Test_Input = np.asarray([[2.2,3.5]])
+Labels_of_Input_Data = np.asarray([[1,2,2,3,3,2,5,5,3,5,4]])
+
+# Processing the Data
+
+
 # Neural Network Model ---------------------------------------
 # ---------------Neural Network Architecture---------------------
 # Configuration of neural Network Architecture
 X = np.asarray(Input_Data) # Source Data
 Y = np.asarray(Labels_of_Input_Data) # Source known result
-Layers_Dimensions = np.asarray([X.shape[1],3,4,Y.shape[1]])  #First value is input and last is output and the middle values are hidden layers
-Layer_Order = ['S','R','R','R','L']
+Layers_Dimensions = np.asarray([X.shape[0],3,3,Y.shape[0]])  #First value is input and last is output and the middle values are hidden layers
+Layer_Order = ['R','R','R','R','L']
 # -------------------------------------------------
 
 # Initialising the input parameters
@@ -37,8 +42,8 @@ def Initilize_params(Layers_Dimensions):
         parameters_Hidden_Layer['b' + str(i)] = np.zeros((Layers_Dimensions[i], 1))
 
         # analysing the dimensions and giving error of wrong dimension matrix
-        assert (parameters_Hidden_Layer['W' + str(i)].shape == (parameters_Hidden_Layer[i]),parameters_Hidden_Layer[i-1])
-        assert (parameters_Hidden_Layer['b' + str(i)].shape == (parameters_Hidden_Layer[i]),1)
+        assert parameters_Hidden_Layer['W' + str(i)].shape == (Layers_Dimensions[i],Layers_Dimensions[i-1])
+        assert parameters_Hidden_Layer['b' + str(i)].shape == (Layers_Dimensions[i],1)
 
     ## Checking the dimension of the matrix raises error for some anamalyous behaviour
     parameters = parameters_Hidden_Layer
@@ -50,8 +55,8 @@ def Initilize_params(Layers_Dimensions):
 def Linear_forward_prop(A,W,b):
     Z = np.dot(W,A) + b
     # checking the dimensions values
-    assert (Z.shape == (W.shape[0],A.shape[1]))
-    cache = (A,W,b)    # stroting values for backward propagation
+    assert Z.shape == (W.shape[0],A.shape[1])
+    cache = (A,W,b)    # storing values for backward propagation
     return Z,cache
 
 ## Creating the Sigmoid Helper Function
@@ -64,11 +69,13 @@ def Relu(z):
     return (r,z)
 
 def dRelu(z,activation_cache):
-    dr = 1. * (z > 0)
-    return activation_cache*dr,z
+    dr = 1.0* (z > 0)  ## Relu issue[Check]
+    #print(activation_cache * dr)                                         # REMOVE THESE AFTER DEBUG
+    return dr
 
 def dsigmoid(z,activation_cache):
-    return activation_cache*(sigmoid(z)[0]*(1 - sigmoid(z)[0]))
+    #print((activation_cache)*(sigmoid(z)[0]*(1 - sigmoid(z)[0])).shape)   # REMOVE THEIS AFTER DEBUG
+    return sigmoid(z)[0]*(1 - sigmoid(z)[0])
 
 def max_func(z):
     return np.floor(z/max(z))
@@ -87,7 +94,7 @@ def Linear_Activation_forward(A_prev, W , b , activation): ## activation = 1[Sig
         A, activation_cache = max_func(Z)
 
     # Checking the matrix dimensions
-    assert (A.shape == (W.shape[0], A_prev.shape[1]))
+    assert A.shape == (W.shape[0], A_prev.shape[1])
     cache = (linear_cache, activation_cache)
 
     return  A, cache
@@ -112,7 +119,7 @@ def Main_Forward_propagation_Function(X,parameters):
     caches.append(cache)
 
     # Checking the dimension of result matrix
-    assert (AL.shape == (1, X.shape[1]))
+    assert AL.shape == (1, X.shape[1])
     return AL, caches
 
 ###-------------Defining the Cost Function-------------###
@@ -126,8 +133,7 @@ def compute_cost(AL,Y):  # Y is the input
     cost = -1 / m * np.sum(Y * np.log(AL) + (1 - Y) * (np.log(1 - AL)))  # Cost Function
     cost = np.squeeze(cost)
     # Checking the cost shape
-    assert (cost.shape == ())
-
+    assert cost.shape == ()
     return cost
 
 # Backward Propagation Function
@@ -139,12 +145,26 @@ def linear_backward(dZ, cache):
 
     dW = 1 / m * (np.dot(dZ, A_prev.T))
     db = 1 / m * np.sum(dZ, axis=1, keepdims=True)
-    dA_prev = np.dot(W.T, dZ)
+    print('-----##-----')     #
+    print(W)                  #
+    print(dZ)                 #    REMOVE THESE STUFF DEBUG CODE
+    dA_prev = np.dot(W.T, dZ) #
+    print(dA_prev)            #
+    print('----##----')       #
 
 ## Checking the structure
-    assert (dA_prev.shape == A_prev.shape)
-    assert (dW.shape == W.shape)
-    assert (db.shape == b.shape)
+    print('-----###-------')  #
+    print(dZ)                 #
+    print(dA_prev.shape)      #
+    print(A_prev.shape)       #    REMOVE THESE STUFF DEBUG CODE
+    print(dW.shape)           #
+    print(W.shape)            #
+    print(db.shape)           #
+    print(b.shape)            #
+    print('----####-----')
+    assert dA_prev.shape == A_prev.shape
+    assert dW.shape == W.shape
+    assert db.shape == b.shape
 
     return dA_prev, dW, db
 
@@ -153,7 +173,6 @@ def linear_backward(dZ, cache):
 def linear_activation_backward(dA, cache, activation):
 
     linear_cache, activation_cache = cache
-
     if activation == 2:
 
         dZ = dRelu(dA, activation_cache)
@@ -191,11 +210,16 @@ def L_model_backward(AL, Y, caches):
             activation = 1
         elif Layer_Order[l] == 'R':
             activation = 2
+        print('------')
+        print(current_cache)
+        print(caches)
+        print('--------')
         current_cache = caches[l]
         dA_prev_temp, dW_temp, db_temp = linear_activation_backward(grads["dA" + str(L - 1)], current_cache, activation)
         grads["dA" + str(l)] = dA_prev_temp
         grads["dW" + str(l + 1)] = dW_temp
         grads["db" + str(l + 1)] = db_temp
+        print('loop completed sucessfully ----->' + str(l))
 
 
     return grads
@@ -206,17 +230,20 @@ def update_parameters(parameters, grads, learning_rate):
 
     L = len(parameters) // 2  # number of layers in the neural network
 
-
+    print("-------------PARAMS------------")
+    print(parameters)
     for l in range(1, L):
-        parameters["W" + str(l + 1)] = parameters['W' + str(l)] - learning_rate * (grads['dW' + str(l)])
-        parameters["b" + str(l + 1)] = parameters['b' + str(l)] - learning_rate * (grads['db' + str(l)])
-
+        parameters["W" + str(l )] = parameters['W' + str(l)] - learning_rate * (grads['dW' + str(l)])
+        parameters["b" + str(l )] = parameters['b' + str(l)] - learning_rate * (grads['db' + str(l)])
+    print("-------------UPDATED PARAMS-----------")
+    print(parameters)
+    print("------------------PARAMS----------------")
     return parameters
 
 
 ## Training the NN Model Function
 
-def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iterations = 3000,):
+def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iterations = 3000):
     np.random.seed(1)
     costs = []  # keep track of cost
 
@@ -253,6 +280,10 @@ def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iteratio
     plt.show()
 
     return parameters
+
+# Calling the training module
+
+Train_NN_Model(X, Y, Layers_Dimensions, 0.0075, 3000)
 
 
 
