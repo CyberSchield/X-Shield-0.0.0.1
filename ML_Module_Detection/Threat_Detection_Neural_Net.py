@@ -11,6 +11,7 @@ Cyber-Shield
 
 import numpy as np
 import json
+import pickle
 import codecs
 import time
 # import sklearn as skl
@@ -26,6 +27,8 @@ Labels_of_Input_Data = np.asarray([[1,2,2,3,3,2,5,5,3,5,4]])
 # Neural Network Model ---------------------------------------
 # ---------------Neural Network Architecture---------------------
 # Configuration of neural Network Architecture
+learning_rate = Learning_Rate = .0004 # edit it as needed
+num_iterations = no_of_Iteration = 3000 # edit to control the iteration count for the system
 X = np.asarray(Input_Data) # Source Data
 Y = np.asarray(Labels_of_Input_Data) # Source known result
 Layers_Dimensions = np.asarray([X.shape[0],3,3,Y.shape[0]])  #First value is input and last is output and the middle values are hidden layers
@@ -82,6 +85,16 @@ def dsigmoid(z,activation_cache):
 
 def max_func(z):
     return np.floor(z/max(z))
+
+#Function for storing and fetching file
+
+def save_obj(obj, name):
+    with open('./' + name + '.pkl', 'wb') as f:
+        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
+
+def load_obj(name ):
+    with open('./' + name + '.pkl', 'rb') as f:
+        return pickle.load(f)
 
 def Linear_Activation_forward(A_prev, W , b , activation): ## activation = 1[Sigmoid] , 2[Relu]
 
@@ -253,9 +266,8 @@ def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iteratio
     #processing the dictionary and serializing it
 
 
-
     try:
-       pass
+        save_obj(parameters,'Trained_NN_data')
     except():
         print("Logs Cannot be generated")
     else:
