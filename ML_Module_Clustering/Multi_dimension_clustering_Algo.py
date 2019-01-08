@@ -13,8 +13,7 @@ from mpl_toolkits import mplot3d
 # Control panel
 no_of_dim = 4
 # Sample Data Points in 4 D
-X = [[25,15,10,12],[21,12,8,13],[12,13,14,13],[22,23,21,24],[19,18,20,11],[11,15,19,24],[16,13,17,15]]
-
+X = [[25,15,10,12],[21,12,8,13],[12,13,14,13],[22,23,21,24],[19,18,20,11],[11,15,19,24],[16,13,17,15],[16.4,13.2,17.2,2,15.1]]
 # Dimension Values extraction Function
 def ext_dim(no_of_dim,X):
     dim_dict = {}
@@ -25,8 +24,23 @@ def ext_dim(no_of_dim,X):
         dim_dict['dimension-' + str(i+1)] = temp_lis[:]
         del temp_lis[:]  # Emptying the list again
     return dim_dict
+
 dimension_Dict = ext_dim(no_of_dim,X) # Segeregating the multi dimension values
 
+
+# Debug Code:---------------------------------------------------------------------------------------
+print(dimension_Dict)
+# --------------------------------------------------------------------------------------------------
+
+# Graph plotting and analysis tool
+def plot_cluster(dimension_Dict):
+    ax = plt.axes(projection='3d')
+    zdata = dimension_Dict['dimension-3']
+    xdata = dimension_Dict['dimension-2']
+    ydata = dimension_Dict['dimension-1']
+    ax.scatter3D(xdata, ydata, zdata, c=zdata, cmap='Greens');
+    plt.show()
+plot_cluster(dimension_Dict)
 # Step 1 Calculating the Euclidean Distance or no of neighbours
 
 # helper functions
@@ -36,40 +50,56 @@ def Euclidean_Distance_Calc(no_of_dim,pt1,pt2):
     for i in range(no_of_dim):
         sum = sum + pow((pt1[i] - pt2[i]),2)
     return math.sqrt(sum)
+# 2. Cluster density Sorter
+def sort_cluster_density(point_metadata):
+    lis1 = []
+    lis2 = []
+    empdic = {}
+    for i in point_metadata.keys():
+        lis1.append(i)
+        lis2.append(point_metadata[i]['Neighbour Count'])
+    for l in range(len(lis1)):
+        for j in range(len(lis2)):
+            if lis2[l] > lis2[j]:  #swapping values
+                tmp = lis2[l]
+                tmp2 = lis1[l]
+                lis2[l] = lis2[j]
+                lis1[l] = lis1[j]
+                lis2[j] = tmp
+                lis1[j] = tmp2
 
-
+    for a in range(len(lis1)):
+        empdic[lis1[a]] = {}
+        empdic[lis1[a]]['Neighbour Count'] = lis2[a]
+    return empdic
 def neighbour_Density_calculator(no_of_dim,X,radius_increment_val):
-    point_metadata = {{}}
+    point_metadata = {}
     max_radius = 0
     Non_cut_off_condition = True
-
+    # initialising an empty dictionary with keys
+    for i in range(len(X)):
+        point_metadata['point-' + str(i)] = {}
+        point_metadata['point-' + str(i)]['Neighbour Count'] = 0
     while(Non_cut_off_condition):
         for i in range(len(X)):
-            for a in X - X[i]:
+            for a in X:
+                if X[i] == a:
+                    continue
                 val = 0
-                point_metadata['point-' + str(i)]['Values'] = X[i]
                 if Euclidean_Distance_Calc(no_of_dim,X[i],a) < max_radius :
                     point_metadata['point-' + str(i)]['Neighbour Count'] = val + 1
+
         for k in range(len(X)):
-            if (point_metadata['point-' + str(i)]['Neighbour Count']/len(X))*100 > 10 :
+            if (point_metadata['point-' + str(k)]['Neighbour Count']/len(X))*100 > 10 :
                 Non_cut_off_condition = False
-                break
             else:
-                max_radius + radius_increment_val
-                Non_cut_off_condition = True
-    return point_metadata
+                max_radius = max_radius + radius_increment_val
+                print(max_radius)
+    return sort_cluster_density(point_metadata)
+
+## Testing the code <-------------------------------Remove------------------------
+a = neighbour_Density_calculator(no_of_dim,X,.1)
 
 
-
-
-
-# Graph plooting and analysis tool
-def plot_cluster(dimension_Dict):
-    ax = plt.axes(projection='3d')
-    zdata = dimension_Dict['dimension-3']
-    xdata = dimension_Dict['dimension-2']
-    ydata = dimension_Dict['dimension-1']
-    ax.scatter3D(xdata, ydata, zdata, c=zdata, cmap='Greens');
-    plt.show()
-plot_cluster(dimension_Dict)
+print(a) #<----------------------------
 
