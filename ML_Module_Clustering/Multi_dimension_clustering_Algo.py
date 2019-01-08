@@ -8,8 +8,8 @@ Cyber-Shield
 """
 #-------------------------------------------------------Random Data Generation Code------------------------------
 import random
-value_range = 40
-sample_size = 100
+value_range = 400
+sample_size = 1000
 X=[]
 for i in range (sample_size):
     X.append(random.sample(range(value_range), 4))
@@ -53,7 +53,7 @@ def plot_cluster(dimension_Dict,label,color):
     ax.scatter3D(xdata, ydata, zdata, c=zdata,label = label, cmap= color);
     ax.legend()
     plt.show()
-plot_cluster(dimension_Dict,'Data_Plot','Blues')
+plot_cluster(dimension_Dict,'Data_Plot','summer')
 # Step 1 Calculating the Euclidean Distance or no of neighbours
 
 # helper functions
