@@ -8,8 +8,8 @@ Cyber-Shield
 """
 #-------------------------------------------------------Random Data Generation Code------------------------------
 import random
-value_range = 400
-sample_size = 1000
+value_range = 40
+sample_size = 100
 X=[]
 for i in range (sample_size):
     X.append(random.sample(range(value_range), 4))
@@ -172,6 +172,8 @@ def cluster_generation(no_of_dim,X):
         cluster_list['cluster-' + str(Initial_cluster_no)]['Data_points'] = []
         cluster_list['cluster-' + str(Initial_cluster_no)]['Centroid'] = point_metadata[i]['value']
         for j in point_metadata.keys():
+            if(i == j):
+                continue
             if(point_metadata[i]['Clustered'] == True):
                 ttp = cluster_list['cluster-' + str(Initial_cluster_no)]['Centroid']
                 ppt = point_metadata[j]['value']
@@ -192,7 +194,7 @@ def cluster_generation(no_of_dim,X):
                     cluster_list['cluster-' + str(Initial_cluster_no)]['Centroid'] = centroid_calc(no_of_dim,cluster_list['cluster-' + str(Initial_cluster_no)]['Data_points'])
                     point_metadata[j]['Clustered'] = True
                     point_metadata[j]['Centroid'] = cluster_list['cluster-' + str(Initial_cluster_no)]['Centroid']
-        if not cluster_list['cluster-' + str(Initial_cluster_no)]:
+        if len(cluster_list['cluster-' + str(Initial_cluster_no)]['Data_points']) == 0:
             del cluster_list['cluster-' + str(Initial_cluster_no)]
             Initial_cluster_no -= 1
 
@@ -203,14 +205,16 @@ def cluster_generation(no_of_dim,X):
 
 # Visualising the clusters function
 
-def cluster_visualize(no_of_dim,cluster_list,outliers,no_of_cluster,color_list): # Fix the colour schemes for the code
+def cluster_visualize(no_of_dim,cluster_list,outliers,no_of_cluster,color_list,limit): # Fix the colour schemes for the code
     #color = ["Blues","Greens","Reds"]
     for i in range(no_of_cluster):
         dimension_Dict = ext_dim(no_of_dim, cluster_list['cluster-'+str(i+1)]['Data_points'])
-        plot_cluster(dimension_Dict, "Cluster - " + str(i+1), "Greens")
+        plot_cluster(dimension_Dict, "Cluster - " + str(i+1), "cool")
+        if i > limit:
+            break
 
     dimension_Dict1 = ext_dim(no_of_dim, outliers)
-    plot_cluster(dimension_Dict1, "Outliers", "Blues")
+    plot_cluster(dimension_Dict1, "Outliers", "winter")
 
 
 
@@ -224,5 +228,5 @@ a,b ,c= cluster_generation(no_of_dim,X)
 print(a)
 print(b)
 print("No of Clusters =" + str(c))
-cluster_visualize(no_of_dim,a,b,c,['Reds'])
+cluster_visualize(no_of_dim,a,b,c,['Reds'],5)
 
