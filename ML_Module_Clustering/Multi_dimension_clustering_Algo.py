@@ -6,6 +6,15 @@ data" Author :- "Erwin B. Montgomery Jr.a,b,∗, He Huanga, Amir Assadic,d]"
 Author:- Ankit Yadav [15SCSE101296]
 Cyber-Shield
 """
+#-------------------------------------------------------Random Data Generation Code------------------------------
+import random
+value_range = 400
+sample_size = 1000
+X=[]
+for i in range (sample_size):
+    X.append(random.sample(range(value_range), 4))
+print(X)
+#-------------------------------------------------------Random Data Generation Code -----------------------------
 import numpy as np
 import math
 import matplotlib.pyplot as plt
@@ -13,7 +22,7 @@ from mpl_toolkits import mplot3d
 # Control panel
 no_of_dim = 4
 # Sample Data Points in 4 D
-X = [[25,15,10,12],[21,12,8,13],[12,13,14,13],[22,23,21,24],[19,18,20,11],[11,15,19,24],[16,13,17,15],[16.4,13.2,17.2,2,15.1]]
+#X = [[25,15,10,12],[21,12,8,13],[12,13,14,13],[22,23,21,24],[19,18,20,11],[11,15,19,24],[16,13,17,15],[16.4,13.2,17.2,2,15.1]]
 # Dimension Values extraction Function
 def ext_dim(no_of_dim,X):
     dim_dict = {}
@@ -72,6 +81,11 @@ def sort_cluster_density(point_metadata):
         empdic[lis1[a]] = {}
         empdic[lis1[a]]['Neighbour Count'] = lis2[a]
     return empdic
+# 3. Z Score calculator function
+def ZScore():
+    pass
+
+
 def neighbour_Density_calculator(no_of_dim,X,radius_increment_val):
     point_metadata = {}
     max_radius = 0
@@ -82,24 +96,25 @@ def neighbour_Density_calculator(no_of_dim,X,radius_increment_val):
         point_metadata['point-' + str(i)]['Neighbour Count'] = 0
     while(Non_cut_off_condition):
         for i in range(len(X)):
+            val = 0
             for a in X:
-                if X[i] == a:
+                if X[i] == a: # Prevent calculating Euclidean distance for same points
                     continue
-                val = 0
                 if Euclidean_Distance_Calc(no_of_dim,X[i],a) < max_radius :
-                    point_metadata['point-' + str(i)]['Neighbour Count'] = val + 1
+                    val = val + 1
+                    point_metadata['point-' + str(i)]['Neighbour Count'] = val
+                    print( Euclidean_Distance_Calc(no_of_dim,X[i],a),'|',max_radius,val) #<-------------------------------------
 
         for k in range(len(X)):
             if (point_metadata['point-' + str(k)]['Neighbour Count']/len(X))*100 > 10 :
                 Non_cut_off_condition = False
             else:
                 max_radius = max_radius + radius_increment_val
-                print(max_radius)
+                #print(max_radius)#<-------------------------------------------------------------Remove
     return sort_cluster_density(point_metadata)
 
 ## Testing the code <-------------------------------Remove------------------------
 a = neighbour_Density_calculator(no_of_dim,X,.1)
-
 
 print(a) #<----------------------------
 
