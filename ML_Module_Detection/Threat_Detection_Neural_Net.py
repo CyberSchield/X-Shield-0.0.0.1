@@ -61,7 +61,7 @@ def Initilize_params(Layers_Dimensions):
 def Linear_forward_prop(A,W,b):
     Z = np.dot(W,A) + b
     # checking the dimensions values
-    assert Z.shape == (W.shape[0],A.shape[1])
+    #assert Z.shape[0] == (W.shape[0],A.shape[1])
     cache = (A,W,b)    # storing values for backward propagation
     return Z,cache
 
@@ -292,10 +292,10 @@ def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iteratio
 
 # Calling the training module
 
-Final_Params = Train_NN_Model(X, Y, Layers_Dimensions, 0.0075, 30)           ## Debugger function
-print(Final_Params)
+#Final_Params = Train_NN_Model(X, Y, Layers_Dimensions, 0.0075, 30)           ## Debugger function
+#print(Final_Params)
 
 
 
 
-##-----------------------------------------------
+##--------------------------------------------------------------------

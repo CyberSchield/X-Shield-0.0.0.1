@@ -13,7 +13,7 @@ sample_size = 1000
 X=[]
 for i in range (sample_size):
     X.append(random.sample(range(value_range), 4))
-print(X)
+#print(X)
 #-------------------------------------------------------Random Data Generation Code -----------------------------
 import numpy as np
 import matplotlib.patches as mpatches
@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
 import matplotlib as mpl
 # Control panel
-no_of_dim = 4
+#no_of_dim = 4
 # Sample Data Points in 4 D
 #X = [[25,15,10,12],[21,12,8,13],[12,13,14,13],[22,23,21,24],[19,18,20,11],[11,15,19,24],[16,13,17,15],[16.4,13.2,17.2,2,15.1]]
 # Dimension Values extraction Function
@@ -36,11 +36,12 @@ def ext_dim(no_of_dim,X):
         del temp_lis[:]  # Emptying the list again
     return dim_dict
 
-dimension_Dict = ext_dim(no_of_dim,X) # Segeregating the multi dimension values
+#dimension_Dict = ext_dim(no_of_dim,X) # Segeregating the multi dimension values # Redundent code use when explicit
+                                       # analysis of the code is needed
 
 
 # Debug Code:---------------------------------------------------------------------------------------
-print(dimension_Dict)
+#print(dimension_Dict)
 # --------------------------------------------------------------------------------------------------
 
 # Graph plotting and analysis tool
@@ -53,7 +54,7 @@ def plot_cluster(dimension_Dict,label,color):
     ax.scatter3D(xdata, ydata, zdata, c=zdata,label = label, cmap= color);
     ax.legend()
     plt.show()
-plot_cluster(dimension_Dict,'Data_Plot','summer')
+#plot_cluster(dimension_Dict,'Data_Plot','summer') # CAll this to print the inital data
 # Step 1 Calculating the Euclidean Distance or no of neighbours
 
 # helper functions
@@ -125,7 +126,7 @@ def ZScore(point_Value,cluster_metadata_list):
 def centroid_calc(no_of_dims,list_val):
     dims = ext_dim(no_of_dims,list_val)
     centroid = []
-    for i in range(no_of_dim):
+    for i in range(no_of_dims):
         centroid.append(sum(dims['dimension-' + str(i+1)])/len(dims['dimension-' + str(i+1)]))
     return centroid
 def neighbour_Density_calculator(no_of_dim,X,radius_increment_val):
@@ -205,8 +206,13 @@ def cluster_generation(no_of_dim,X):
 
 # Visualising the clusters function
 
-def cluster_visualize(no_of_dim,cluster_list,outliers,no_of_cluster,color_list,limit): # Fix the colour schemes for the code
+def cluster_visualize(no_of_dim,cluster_list,outliers,no_of_cluster,color_list,limit,X): # Fix the colour schemes for the code
     #color = ["Blues","Greens","Reds"]
+
+    # Printing the initial structure of data in 3D
+    dimension_Dict = ext_dim(no_of_dim, X)
+    plot_cluster(dimension_Dict, 'Data_Plot', 'summer')
+
     for i in range(no_of_cluster):
         dimension_Dict = ext_dim(no_of_dim, cluster_list['cluster-'+str(i+1)]['Data_points'])
         plot_cluster(dimension_Dict, "Cluster - " + str(i+1), "cool")
@@ -224,9 +230,11 @@ def cluster_visualize(no_of_dim,cluster_list,outliers,no_of_cluster,color_list,l
 
 
 ## Testing the code <-------------------------------Remove------------------------
+'''
 a,b ,c= cluster_generation(no_of_dim,X)
 print(a)
 print(b)
 print("No of Clusters =" + str(c))
-cluster_visualize(no_of_dim,a,b,c,['Reds'],5)
+cluster_visualize(no_of_dim,a,b,c,['Reds'],5,X)
+'''
 
