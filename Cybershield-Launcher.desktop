@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version = 1.0
+Name = Cybershield_Launcher
+Exec =GUI/Syste_Status_Screen.py
+Icon =GUI/cyber.png
+Type = Application

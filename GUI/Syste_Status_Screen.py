@@ -1,43 +1,55 @@
 from tkinter import *
 import time
+global stat
 # Creating the window
-
 #root = Tk()
 
 # modify the root window
-def gui_disp(stat="safe"):
-    root = Tk()
-    root.title("Cybershield-Project-X v 1.0")
-    root.geometry("800x500")
+stat = 'safe'
+shut_var = 1
+root = Tk()
+root.title("Cybershield-Project-X v 1.0")
+root.geometry("800x500")
 
-    app = Frame(root, bg="green")
-    app.config(bg="green")
-    app.pack(fill='both', expand='yes')
-    app.pack()
+def cl():
+    global stat
+    stat = 'close'
 
-    ourmessage = "System Is Safe"
-    messageVar = Message(app, text=ourmessage,bd = 8 , relief = "solid" ,
+app = Frame(root, bg="green")
+app.config(bg="AntiqueWhite3")
+app.pack(fill='both', expand='yes')
+
+ourmessage = "System Is Safe"
+messageVar = Message(app, text=ourmessage,bd = 8 , relief = "solid" ,
                          font="Times 22 bold",fg = "white")
-    messageVar.place(x=300, y=300, anchor="center")
-    messageVar.pack()
-    messageVar.config(bg='lightgreen')
-    for i in range(5):
-        if(stat == "safe"):
-            app['bg'] = "green"
-            ourmessage = "System Is Safe"
-            messageVar['text'] = ourmessage
-            messageVar['bg'] = 'lightgreen'
-        else:
-            app['bg'] = "red"
-            ourmessage1 = "System Is Unsafe"
-            messageVar['text'] = ourmessage1
-            messageVar['bg'] = 'red'
-    # Launching the window
-        root.update_idletasks()
-        root.update()
-        time.sleep(2)
-        stat = "fall"
+messageVar.place( x = 400 , y = 150 , anchor="center",width = 400,height=250)
+messageVar.config(bg='lightgreen')
 
+button = Button(app, text="Shutdown the system",bd=5 , relief = "solid",
+                           font="Times 18 bold",fg = "red", )
+button.place( x = 400 , y = 450 , anchor="center")
+button.config( command= lambda : cl() )
+stat = "safe"
+while(True):
+    print(stat)
+    if(stat == "safe"):
+        ourmessage = "System Is Safe"
+        messageVar['text'] = ourmessage
+        messageVar['bg'] = 'lightgreen'
 
-safe_stat = "safe"
-gui_disp(safe_stat)
+    elif(stat == "close"):
+        ourmessage3 = "Shutting Down in 15 Seconds"
+        messageVar['text'] = ourmessage3
+        messageVar['bg'] = 'gold'
+        if(shut_var == 2):
+            time.sleep(15)
+            break
+        shut_var += 1
+
+    else:
+        ourmessage1 = "System Is Unsafe"
+        messageVar['text'] = ourmessage1
+        messageVar['bg'] = 'red'
+# Launching the window
+    root.update_idletasks()
+    root.update()
