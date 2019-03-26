@@ -292,8 +292,8 @@ def Train_NN_Model(X, Y, Layers_Dimensions, learning_rate = 0.0075, num_iteratio
 
 # Calling the training module
 
-#Final_Params = Train_NN_Model(X, Y, Layers_Dimensions, 0.0075, 30)           ## Debugger function
-#print(Final_Params)
+Final_Params = Train_NN_Model(X, Y, Layers_Dimensions, 0.0075, 30)           ## Debugger function
+print(Final_Params)                                                          ## Debugger Function
 
 
 

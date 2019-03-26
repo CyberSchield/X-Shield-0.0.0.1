@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26658294-12d4-42a6-9617-797948fc2933" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cybershield-Launcher.desktop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML_Module_Clustering/interm_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/X-Shield-0.0.0.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/X-Shield-0.0.0.1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI/Syste_Status_Screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Syste_Status_Screen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/cyber.png" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/cyber.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Module_Detection/Threat_Detection_Neural_Net.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Module_Detection/Threat_Detection_Neural_Net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Module_Training_and_Predictor/Trained_NN_data.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Module_Training_and_Predictor/Trained_NN_data.pkl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,46 +20,59 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Predectior__1_.coverage" NAME="Predectior (1) Coverage Results" MODIFIED="1547918668965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Detection" />
-    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Threat_Detection_Neural_Net.coverage" NAME="Threat_Detection_Neural_Net Coverage Results" MODIFIED="1547920932439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Detection" />
-    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Training.coverage" NAME="Training Coverage Results" MODIFIED="1547927124797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Training_and_Predictor" />
+    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Threat_Detection_Neural_Net.coverage" NAME="Threat_Detection_Neural_Net Coverage Results" MODIFIED="1548912178142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Detection" />
+    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Training.coverage" NAME="Training Coverage Results" MODIFIED="1548912171433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Training_and_Predictor" />
     <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$driver_script.coverage" NAME="driver_script Coverage Results" MODIFIED="1547927066951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Driver Module/Scripts" />
-    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Syste_Status_Screen.coverage" NAME="Syste_Status_Screen Coverage Results" MODIFIED="1547987557614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
-    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Predectior.coverage" NAME="Predectior Coverage Results" MODIFIED="1547922069013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Training_and_Predictor" />
+    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Syste_Status_Screen.coverage" NAME="Syste_Status_Screen Coverage Results" MODIFIED="1548871252114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Predectior.coverage" NAME="Predectior Coverage Results" MODIFIED="1553574798600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Training_and_Predictor" />
+    <SUITE FILE_PATH="coverage/X_Shield_0_0_0_1$Multi_dimension_clustering_Algo.coverage" NAME="Multi_dimension_clustering_Algo Coverage Results" MODIFIED="1553587252006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ML_Module_Clustering" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="X-Shield-0.0.0.1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ML_Module_Training_and_Predictor/Predectior.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GUI/Syste_Status_Screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="274">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#4#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cybershield-LauncherMAC.sh">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML_Module_Clustering/interm_detector.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML_Module_Training_and_Predictor/Training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1198">
+              <caret line="80" column="107" selection-start-line="80" selection-start-column="107" selection-end-line="80" selection-end-column="107" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -79,21 +98,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ML_Module_Detection/Predectior.py" />
-        <option value="$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py" />
         <option value="$PROJECT_DIR$/ML_Module_Training_and_Predictor/Predectior.py" />
-        <option value="$PROJECT_DIR$/ML_Module_Detection/Threat_Detection_Neural_Net.py" />
         <option value="$PROJECT_DIR$/ML_Module_Training_and_Predictor/Training.py" />
-        <option value="$PROJECT_DIR$/GUI/Syste_Status_Screen.py" />
         <option value="$PROJECT_DIR$/Cybershield-Launcher.desktop" />
         <option value="$PROJECT_DIR$/Cybershield-Launcher(MAC).sh" />
         <option value="$PROJECT_DIR$/Cybershield-LauncherMAC.sh" />
+        <option value="$PROJECT_DIR$/ML_Module_Detection/Threat_Detection_Neural_Net.py" />
+        <option value="$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py" />
+        <option value="$PROJECT_DIR$/ML_Module_Clustering/interm_detector.py" />
+        <option value="$PROJECT_DIR$/GUI/Syste_Status_Screen.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="y" value="160" />
-    <option name="width" value="1565" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="340" />
+    <option name="y" value="42" />
+    <option name="width" value="1103" />
     <option name="height" value="825" />
   </component>
   <component name="ProjectView">
@@ -101,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,11 +129,15 @@
               <item name="X-Shield-0.0.0.1" type="b2602c69:ProjectViewProjectNode" />
               <item name="X-Shield-0.0.0.1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="X-Shield-0.0.0.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="X-Shield-0.0.0.1" type="462c0819:PsiDirectoryNode" />
+              <item name="ML_Module_Clustering" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +167,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.Syste_Status_Screen">
+    <configuration name="Multi_dimension_clustering_Algo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="X-Shield-0.0.0.1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Module_Clustering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Predectior" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="X-Shield-0.0.0.1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,9 +215,6 @@
       <module name="X-Shield-0.0.0.1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -179,7 +223,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/Syste_Status_Screen.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -208,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="X-Shield-0.0.0.1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,36 +260,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Module_Training_and_Predictor" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Module_Training_and_Predictor/Training.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="driver_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="interm_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="X-Shield-0.0.0.1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Driver Module/Scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Module_Clustering" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Driver Module/Scripts/driver_script.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Module_Clustering/interm_detector.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -253,17 +294,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Multi_dimension_clustering_Algo" />
       <item itemvalue="Python.Predectior" />
-      <item itemvalue="Python.Training" />
       <item itemvalue="Python.Threat_Detection_Neural_Net" />
-      <item itemvalue="Python.driver_script" />
+      <item itemvalue="Python.interm_detector" />
       <item itemvalue="Python.Syste_Status_Screen" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Syste_Status_Screen" />
-        <item itemvalue="Python.Training" />
-        <item itemvalue="Python.driver_script" />
+        <item itemvalue="Python.Multi_dimension_clustering_Algo" />
+        <item itemvalue="Python.interm_detector" />
         <item itemvalue="Python.Predectior" />
         <item itemvalue="Python.Threat_Detection_Neural_Net" />
       </list>
@@ -281,22 +322,25 @@
       <updated>1547904357612</updated>
       <workItem from="1547904359610" duration="95000" />
       <workItem from="1547904593923" duration="36964000" />
+      <workItem from="1548870361473" duration="2828000" />
+      <workItem from="1553568783969" duration="13000" />
+      <workItem from="1553568804803" duration="12491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37059000" />
+    <option name="totallyTimeSpent" value="52391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="160" width="1565" height="825" extended-state="0" />
+    <frame x="340" y="42" width="1103" height="825" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7639836" visible="true" weight="0.1700591" />
-      <window_info id="Structure" order="1" sideWeight="0.23601638" side_tool="true" visible="true" weight="0.1700591" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75844157" visible="true" weight="0.27049953" />
+      <window_info id="Structure" order="1" sideWeight="0.24155845" side_tool="true" visible="true" weight="0.27049953" />
       <window_info id="Favorites" order="2" sideWeight="0.50066227" side_tool="true" weight="0.2494577" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.3287858" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.3860846" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49785408" weight="0.2686747" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -304,13 +348,14 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.30819982" side_tool="true" visible="true" weight="0.47476125" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6918002" visible="true" weight="0.47476125" />
+      <window_info anchor="right" x="0" y="0" width="310" height="625" id="Documentation" sideWeight="0.5012987" side_tool="true" visible="true" weight="0.032987747" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.019697964" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4987013" visible="true" weight="0.032987747" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -339,47 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3531">
-          <caret line="237" column="46" selection-start-line="237" selection-start-column="46" selection-end-line="237" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Module_Training_and_Predictor/Predectior.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="105" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Module_Detection/Threat_Detection_Neural_Net.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
-          <folding>
-            <element signature="e#181#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Driver Module/Scripts/driver_script.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Module_Training_and_Predictor/Training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="80" column="107" selection-start-line="80" selection-start-column="107" selection-end-line="80" selection-end-column="107" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -390,19 +398,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cybershield-Launcher(MAC).sh">
+    <entry file="file://$PROJECT_DIR$/Cybershield-Launcher(MAC).sh" />
+    <entry file="file://$PROJECT_DIR$/ML_Module_Training_and_Predictor/Predectior.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/Syste_Status_Screen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="225">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -411,6 +413,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Module_Detection/Threat_Detection_Neural_Net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2484">
+          <caret line="94" column="20" lean-forward="true" selection-start-line="90" selection-end-line="96" selection-end-column="29" />
+          <folding>
+            <element signature="e#181#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Module_Training_and_Predictor/Training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1198">
+          <caret line="80" column="107" selection-start-line="80" selection-start-column="107" selection-end-line="80" selection-end-column="107" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Module_Clustering/Multi_dimension_clustering_Algo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Module_Clustering/interm_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/Syste_Status_Screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#4#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
 import matplotlib as mpl
 # Control panel
-#no_of_dim = 4
+no_of_dim = 4 #<-------------------close once tested
 # Sample Data Points in 4 D
 #X = [[25,15,10,12],[21,12,8,13],[12,13,14,13],[22,23,21,24],[19,18,20,11],[11,15,19,24],[16,13,17,15],[16.4,13.2,17.2,2,15.1]]
 # Dimension Values extraction Function
@@ -151,7 +151,7 @@ def neighbour_Density_calculator(no_of_dim,X,radius_increment_val):
                     val = val + 1
                     point_metadata['point-' + str(i)]['Neighbour Count'] = val
                     point_metadata['point-' + str(i)]['Points'].append(a)
-                    print( Euclidean_Distance_Calc(no_of_dim,X[i],a),'|',max_radius,val) #<-------------------------------------
+                    #print( Euclidean_Distance_Calc(no_of_dim,X[i],a),'|',max_radius,val) #<-------------------------------------
 
         for k in range(len(X)):
             if (point_metadata['point-' + str(k)]['Neighbour Count']/len(X))*100 > 10 :
@@ -162,6 +162,7 @@ def neighbour_Density_calculator(no_of_dim,X,radius_increment_val):
 
 # Cluster formation and centroid calculation
 def cluster_generation(no_of_dim,X):
+    print('cluster generate called')#<-------remove when fixed
     Initial_cluster_no = 0
     outliers = []
     cluster_list = {}
@@ -223,18 +224,34 @@ def cluster_visualize(no_of_dim,cluster_list,outliers,no_of_cluster,color_list,l
     plot_cluster(dimension_Dict1, "Outliers", "winter")
 
 
+## Storing Clustering Algorithm <---------------------------------------
+import  pickle
 
+def save_obj(obj, name):
+    with open('./' + name + '.pkl', 'wb') as f:
+        pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
 
-
-
+def load_obj(name ):
+    with open('./' + name + '.pkl', 'rb') as f:
+        return pickle.load(f)
 
 
 ## Testing the code <-------------------------------Remove------------------------
-'''
+
 a,b ,c= cluster_generation(no_of_dim,X)
+
+try:
+    save_obj(a, 'Trained_clustering_data')
+    save_obj(b,'Trained_clustering_outliers')
+    save_obj(c,'Trined_clustering_no_of_clusters')
+except():
+    print("Logs Cannot be generated")
+else:
+    print("Logs Generated successfully")
 print(a)
 print(b)
 print("No of Clusters =" + str(c))
-cluster_visualize(no_of_dim,a,b,c,['Reds'],5,X)
-'''
+#cluster_visualize(no_of_dim,a,b,c,['Reds'],5,X)    <---------------------- activate for custer generation visualization
+
+
 

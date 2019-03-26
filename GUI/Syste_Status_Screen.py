@@ -1,3 +1,4 @@
+from ML_Module_Clustering.interm_detector import predictor as pred
 from tkinter import *
 import time
 global stat
@@ -31,6 +32,21 @@ button.place( x = 400 , y = 450 , anchor="center")
 button.config( command= lambda : cl() )
 stat = "safe"
 while(True):
+    res = pred([172, 191, 125, 224])  # <------------------------------------ put the values here for testing
+    # -----------------------------Testing system status------------------------------#
+    if (res == 'not_found'):
+        stat = "unsafe"
+    if (res == 'cluster-1'):
+        stat = "safe"
+    if (res == 'cluster-2'):
+        stat = "safe"
+    if (res == 'cluster-3'):
+        stat = "unsafe"
+    if (res == 'cluster-4'):
+        stat = "unsafe"
+    if (res == 'cluster-5'):
+        stat = "unsafe"
+    # ---------------------------------------------------------------------------------#
     print(stat)
     if(stat == "safe"):
         ourmessage = "System Is Safe"
@@ -43,13 +59,17 @@ while(True):
         messageVar['bg'] = 'gold'
         if(shut_var == 2):
             time.sleep(15)
+            shut_var += 1
             break
+
         shut_var += 1
 
     else:
         ourmessage1 = "System Is Unsafe"
         messageVar['text'] = ourmessage1
         messageVar['bg'] = 'red'
+
+
 # Launching the window
     root.update_idletasks()
     root.update()
