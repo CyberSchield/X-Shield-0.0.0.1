@@ -1,2 +1,0 @@
-# Run every 5 minutes.
-*/5 * * * * cd "/home/yash/X-Shield-0.0.0.1/Data_Set" && python3 "/home/yash/X-Shield-0.0.0.1/Driver Module/Scripts/driver_script_server.py"
